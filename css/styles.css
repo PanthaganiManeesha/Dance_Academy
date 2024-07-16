@@ -1,0 +1,164 @@
+/* General Styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('../img/image1.jpg'); /* Adjust the path as necessary */
+    background-size: cover;
+    background-position: cover;
+    /* background-repeat: no-repeat; */
+    color: white; /* General text color to contrast with the background */
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the container takes at least the full height of the viewport */
+    margin-bottom: 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: white;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+/* Card Styles */
+.card {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.card-img-top {
+    width: 60%;
+    height: 300px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+
+.card-title,
+.card-text {
+    background-color: black;
+    color:white /* Ensure text is readable */
+}
+
+/* List Group Styles */
+.list-group-item {
+    background-color: black; /* semi-transparent black */
+    color: white; /* Text color for better readability */
+    border: none; /* Remove border to match background */
+}
+
+.list-group-item:hover {
+    background-color: rgba(0, 0, 0, 0.9); /* darker semi-transparent black */
+}
+
+/* Specific background images for each class card */
+.card{
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;  /* To ensure text is readable */
+}
+.card-ballet{
+    background-color: black;
+}
+.card-hiphop{
+    background-color:black
+}
+.card-salsa {
+    background-color:black;
+}
+
+.card-jazz {
+    background-color:black
+}
+
+.card-contemporary {
+    background-color:black
+}
+
+.card-tapdance {
+    background-color: black;
+} 
+
+
+
+
+/*video*/
+body, html {
+    height: 50%;
+}
+
+.container {
+    min-height: calc(70vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px; 
+}
+
+.video-container {
+    /* background-color: black; */
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.video {
+     margin: 10px; 
+    /* background-color:darkcyan; */
+    text-align: center;
+    flex: 00 calc(33.33% - 40px);
+    max-width: calc(33.33% - 40px);
+}
+
+footer {
+    /* Position the footer at the bottom of the viewport */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* login*/
+/* Custom styles for form labels */
+/* .form-label {
+    display: inline-block;
+    width: 150px; /* Adjust the width as needed *} */
+
+
+
+
+
+/* General Styles */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
